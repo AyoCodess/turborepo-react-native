@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { Button } from "ui";
+import { Header } from "shared";
 
 export default function Native() {
   return (
@@ -13,6 +14,7 @@ export default function Native() {
         }}
         text="Boop"
       />
+      <Header text={"hey"} />
       <StatusBar style="auto" />
     </View>
   );
